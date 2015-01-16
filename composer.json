@@ -1,0 +1,5 @@
+{
+  "require": {
+      "recaptcha/php5": "v1.1.0"
+  }
+}

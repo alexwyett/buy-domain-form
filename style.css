@@ -1,0 +1,67 @@
+html {	
+	font-family: "Trebuchet MS",Helvetica,Arial,sans-serif;
+}
+
+body {
+	background: #727272; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3MjcyNzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDQ0NDQ0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover,  #727272 0%, #444444 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#727272), color-stop(100%,#444444)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #727272 0%,#444444 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #727272 0%,#444444 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #727272 0%,#444444 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #727272 0%,#444444 100%); /* W3C */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#444444',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+h1, #buy_domain {
+	color: #c7cd2e;
+	font-size: 60px;
+	font-weight: normal;
+	margin: 30px auto;
+	text-align: center;	
+}
+
+#buy_domain, #enquire_now {
+	color: #fff;
+}
+
+.form-input {
+	border: 0px transparent;
+	border-radius: 5px;
+	display: block;
+	font-size: 20px;
+        height: 50px;
+	margin: 10px auto;
+	padding: 10px 15px 0;
+	text-align: left;
+	width: 255px;
+}
+
+#message {
+	font-family: "Trebuchet MS",Helvetica,Arial,sans-serif;
+	height: 200px;
+	padding: 15px 15px 0;
+}
+
+#recaptcha_area {	
+	margin: 0 auto;
+}
+
+#recaptcha_response_field {
+	height: 20px;
+}
+
+#enquire_now {
+	background-color: #61a856;
+	padding: 0px;
+	text-align: center;
+}
+
+#enquire_now:hover {
+	background-color: #c7cd2e;
+}
+
