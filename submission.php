@@ -19,7 +19,7 @@
             doError('Invalid captcha');
         } else {
             if (filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL)) {
-                $toEmail = 'b.hall@tabs-software.co.uk';
+                $toEmail = 'a.wyett@tocc.co.uk';
                 $mailSubject = 'Buy Domain Request';
                 $mailHeader = "From: The Website (" . filter_input(INPUT_SERVER, 'SERVER_NAME') . ")\r\n";
                 $mailHeader .= "Reply-To: ".filter_input(INPUT_POST, 'email')."\r\n";
