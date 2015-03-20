@@ -1,16 +1,13 @@
 <?php
     require 'vendor/autoload.php';
     require_once 'helpers/Common.php';
+    require_once 'helpers/captcha.php';
     
     function doError($msg, $status = 'error') {
         saveFlashMessage($status, $msg);
         redirect('index.php', 'location', 302);
         exit;
     }
-    
-    $captcha = new Captcha\Captcha();
-    $captcha->setPublicKey('6LfQFwATAAAAAL1NsiJvKCl6K7e9p8qr600syhpM');
-    $captcha->setPrivateKey('6LfQFwATAAAAAAwYTafRuuPTN91--B6L7S97PTdq');
 
     if (filter_input_array(INPUT_POST)) {
         $response = $captcha->check();
