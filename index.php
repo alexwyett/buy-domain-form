@@ -2,10 +2,7 @@
 
 require 'vendor/autoload.php';
 require_once 'helpers/Common.php';
-
-$captcha = new Captcha\Captcha();
-$captcha->setPublicKey('6LfQFwATAAAAAL1NsiJvKCl6K7e9p8qr600syhpM');
-$captcha->setPrivateKey('6LfQFwATAAAAAAwYTafRuuPTN91--B6L7S97PTdq');
+require_once 'helpers/captcha.php';
 
 $domain = parse_url(filter_input(INPUT_SERVER, 'SERVER_NAME'));
 
